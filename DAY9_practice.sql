@@ -18,7 +18,7 @@ CASE
 END AS triangle
 FROM Triangle
 
--- EX3
+-- EX3 --- NOT FINISHED
 SELECT 
 SUM(CASE 
 WHEN call_category IS NULL OR call_category='n/a' THEN 1
